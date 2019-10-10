@@ -77,7 +77,7 @@ def main():
   global args
   args = get_args()
   if not args.silent: print("\n\nUser name enumeration against SSH daemons affected by CVE-2016-6210")
-  if not args.silent: print("Created and coded by 0_o (nu11.nu11 [at] yahoo.com), PoC by Eddie Harari\n\n")
+  if not args.silent: print("Created for simple user enumeration against openssh\n\n")
   if args.host:
     host = args.host.split(":")[0]
     try:
